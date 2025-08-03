@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         //flash logic
         Handler(Looper.getMainLooper()).postDelayed({
-            startActivity(Intent(this, signupActivity::class.java))
+            startActivity(Intent(this, SignupActivity::class.java))
             finish()
         }, 3000)
 

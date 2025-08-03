@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "252047838130",
+    "project_id": "authapp-b8845",
+    "storage_bucket": "authapp-b8845.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252047838130:android:8c56fb80b2acb31d79f2ab",
+        "android_client_info": {
+          "package_name": "com.example.signinsignup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsZJxSx5r4p937ZhLEv8dU_ngmmaSDYOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
