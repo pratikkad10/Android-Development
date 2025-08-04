@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_prime"
+            android:icon="@drawable/trendingsvg"
+            android:title="Prime"/>
+
+        <item android:id="@+id/nav_electronics"
+            android:icon="@drawable/devicessvg"
+            android:title="Electronics"/>
+
+        <item android:id="@+id/nav_fashion"
+            android:icon="@drawable/wcsvg"
+            android:title="Fashion"/>
+
+        <item android:id="@+id/nav_fresh"
+            android:icon="@drawable/fastfoodsvg"
+            android:title="Fresh"/>
+
+
+        <item android:id="@+id/nav_beauty"
+            android:icon="@drawable/beautysvg"
+            android:title="Beauty"/>
+
+        <item android:id="@+id/nav_furniture"
+            android:icon="@drawable/weekendsvg"
+            android:title="Furniture"/>
+
+
+
+
+    </group>
+</menu>
