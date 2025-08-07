@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CRUD firebase app</string>
+    <string name="search">Search</string>
+    <string name="enter_vehicle_number">Enter vehicle number</string>
+</resources>

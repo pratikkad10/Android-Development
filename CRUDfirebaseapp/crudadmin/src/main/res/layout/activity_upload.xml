@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@color/green"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadActivity">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/enter_vehicle_information"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="64dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp">
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:paddingHorizontal="8dp"
+                android:textColor="@color/white"
+                android:paddingVertical="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_border"
+                android:textColorHint="@color/white"
+                android:id="@+id/uploadOwnerName"
+                android:hint="Enter owner name" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:paddingHorizontal="8dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="15dp"
+                android:paddingVertical="10dp"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/white"
+                android:background="@drawable/white_border"
+                android:id="@+id/uploadVehicleBrand"
+                android:hint="Enter vehicle brand" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:paddingHorizontal="8dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="15dp"
+                android:paddingVertical="10dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_border"
+                android:id="@+id/uploadVehicleRTO"
+                android:textColorHint="@color/white"
+                android:hint="Enter vehicle RTO" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:paddingHorizontal="8dp"
+                android:textColor="@color/white"
+                android:paddingVertical="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_border"
+                android:id="@+id/uploadVehicleNumber"
+                android:textColorHint="@color/white"
+                android:hint="Enter vehicle number"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_border"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:text="Save" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

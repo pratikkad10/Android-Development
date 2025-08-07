@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CRUD Admin</string>
+    <string name="upload">Upload</string>
+    <string name="vehicle_information">Vehicle Information</string>
+    <string name="admin_panel">Admin Panel</string>
+    <string name="enter_vehicle_information">Enter Vehicle Information</string>
+    <string name="hint">hint</string>
+    <string name="delete">Delete</string>
+</resources>
